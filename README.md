@@ -54,3 +54,9 @@ Click the badge below to open the project in Google Colab and explore the analys
 ---
 
 *“Turning complex networks into clear insights—one graph at a time.”*
+
+Author: DreadJoy
+
+Email: daverywolf@gmail.com
+
+LinkedIn: linkedin.com/in/david-keller-b76753265
