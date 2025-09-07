@@ -43,7 +43,7 @@
 
 - [LinkedIn](https://www.linkedin.com/in/david-keller-b76753265/)
 
-##Here is Colab Badge:
+## Here is Colab Badge:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]
 (https://colab.research.google.com/github/DreadJoy/Elliptic_Fraud_Detection/blob/main/Elliptic_view.ipynb)
