@@ -16,12 +16,13 @@ This project is currently being refined. During evaluation, I identified data le
 ---
 
 Note on Evaluation:
+
 Earlier versions of this project showed near-perfect performance due to feature leakage across time steps.
 I am currently restructuring the workflow using:
 
-strict temporal splits (train → validation → test)
-removal of forward-looking features (e.g., shortest-path-to-illicit)
-baseline models with F1 on future time windows
+- strict temporal splits (train → validation → test)
+- removal of forward-looking features (e.g., shortest-path-to-illicit)
+- baseline models with F1 on future time windows
 
 The goal is to produce a realistic fraud detection benchmark aligned with production constraints.
 
