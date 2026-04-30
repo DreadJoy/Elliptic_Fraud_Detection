@@ -10,10 +10,20 @@
 
 > _Bridging mathematics and data science to uncover hidden fraud rings in Bitcoin transactions._
 
-- **Graph Theory & Topology:** Degree stats, centralities, PageRank, clustering, cycles, Betti numbers, persistent homology.
-- **Machine Learning:** Logistic regression, random forest, neural networks, ensemble strategies.
-- **Results:** Perfect separation (AUC = 1.00), interpretable probabilities, and visual insights into fraud "neighborhoods."
-- **Why it matters:** Fraud detection is my passion—this project blends my favorite mathematical fields with practical impact.
+Work in Progress:
+This project is currently being refined. During evaluation, I identified data leakage in the temporal structure, and I am rebuilding the pipeline using proper time-based validation. Updated results and benchmarks coming soon.
+
+---
+
+Note on Evaluation:
+Earlier versions of this project showed near-perfect performance due to feature leakage across time steps.
+I am currently restructuring the workflow using:
+
+strict temporal splits (train → validation → test)
+removal of forward-looking features (e.g., shortest-path-to-illicit)
+baseline models with F1 on future time windows
+
+The goal is to produce a realistic fraud detection benchmark aligned with production constraints.
 
 ---
 
