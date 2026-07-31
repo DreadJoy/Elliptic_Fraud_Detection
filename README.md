@@ -4,8 +4,6 @@
 
 ---
 
-## 🚩 Flagship Project
-
 ### [Elliptic Bitcoin Transaction Fraud Detection](https://github.com/DreadJoy/Elliptic_Bitcoin_Fraud_Detection)
 
 > _Bridging mathematics and data science to uncover hidden fraud rings in Bitcoin transactions._
